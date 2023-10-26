@@ -1,0 +1,756 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+	width: 900px;
+	margin: 30px auto;
+	background-image: url(../../img/bg.png);
+	border: 4px solid lightskyblue;
+}
+
+header {
+
+	width: 900px;
+	height: 250px;
+}
+
+header img {
+
+	width: 900px;
+	height: 250px;
+}
+
+/* Awal Menu */
+
+menu {
+	width: 880px;
+	height: 30px;
+	background-color: blue;
+	padding: 10px;
+}
+
+menu li {
+
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+	color: #fff;
+}
+
+menu li a {
+
+	text-decoration: none;
+	color: #fff;
+}
+
+menu li a:hover {
+
+	color: orange;
+}
+
+/* Akhir menu */
+
+/* Awal Class recomended */
+
+.recomended {
+
+	width: 100%;
+	overflow: hidden;
+	background-color: limegreen;
+	margin-top: 5px;
+}
+
+.recomended h1 {
+
+	text-align: center;
+	font-family: arial;
+}
+
+.recomended .recomendedKiri {
+
+	width: 435px;
+	float: left;
+	margin: 5px 5px 5px 10px;
+}
+
+h3 {
+
+	font-family: arial;
+}
+
+.recomended p {
+
+	text-align: justify;
+}
+
+.recomended img {
+
+	width: 150px;
+	height: 100px;
+	float: left;
+	margin: 0px 5px 5px 0px;
+	box-shadow: 2px 2px 2px #333;
+
+}
+
+.recomended .recomendedKanan {
+
+	width: 435px;
+	float: left;
+	margin: 10px 5px 5px 5px;
+}
+
+.recomended a {
+
+	text-decoration: none;
+	color: #000000;
+}
+
+.recomended a:hover {
+
+	text-decoration: underline;
+	color: blue;
+}
+
+/* Akhir class recomended */
+
+/* Awal class container */
+
+.container {
+
+	width: 100%;
+	overflow: hidden;
+	background-color: white;
+	margin-top: 5px;
+}
+
+/* awal class widget */
+
+.container .widget {
+
+	width: 245px;
+	float: left;
+	background-color: #f90;
+}
+
+.container .widget .artikelTerlaris {
+
+	margin: 0 5px;
+}
+
+.container .widget .artikelTerlaris img {
+
+	width: 100px;
+	height: 50px;
+	float: left;
+	margin-right: 6px;
+}
+
+.container .widget .artikelTerlaris h3 {
+
+	text-align: center;
+	margin: 5px 0 10px;
+	color: white;
+	word-spacing: 5px;
+}
+
+.container .widget .artikelTerlaris h4 {
+
+	font-family: arial;
+	font-weight: bold;
+}
+
+.container .widget .artikelTerlaris a {
+
+	text-decoration: none;
+	color: black;
+}
+
+.container .widget .artikelTerlaris a:hover {
+
+	text-decoration: underline;
+	color: blue;
+}
+
+.container .widget .kontak {
+
+	margin: 10px 0 5px;
+	border-top: 5px solid white;
+}
+
+.container .widget .kontak img {
+
+	width: 80px;
+	height: 80px;
+	position: relative;
+	left: 83px;
+	margin-bottom: 10px;
+}
+
+.container .widget .kontak input[type="email"] {
+
+	width: 95%;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+.container .widget .kontak input[type="password"] {
+
+	width: 95%;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+.container .widget .kontak input[type="submit"] {
+
+	width: 50%;
+	padding: 5px;
+	cursor: pointer;
+	border-radius: 3px;
+	margin: 5px 58px;
+}
+
+.container .widget .kontak h3 {
+
+	text-align: center;
+	margin: 10px 0;
+}
+
+/* akhir class widget */
+
+/* awal class artikelTerbaru */
+
+.container .artikelTerbaru {
+
+	width: 650px;
+	background-color: #a3a3a3;
+	float: left;
+	margin-left: 5px;
+}
+
+.container .artikelTerbaru img {
+
+	width: 550px;
+	margin: 5px 50px 0;
+}
+
+.container .artikelTerbaru h2 {
+
+	margin: 5px 5px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.container .artikelTerbaru p {
+
+	margin: 0 10px;
+	text-align: justify;
+}
+
+.container .artikelTerbaru a {
+
+	text-decoration: none;
+	color: black;
+}
+
+.container .artikelTerbaru a:hover {
+
+	color: blue;
+	text-decoration: underline;
+}
+
+/* awal class fg08 */
+
+.container .artikelTerbaru .fgo8 img {
+
+	width: 200px;
+	height: 300px;
+	padding-bottom: 20px;
+	margin: -15px 20px 0;
+	float: left;
+}
+
+.container .artikelTerbaru .fgo8 h2 {
+
+	margin: 5px 5px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.container .artikelTerbaru .fgo8 p {
+
+	margin: 0 10px;
+	text-align: justify;
+}
+
+/* akhir class fgo8 */
+
+/* awal class sugar */
+
+.container .artikelTerbaru .sugar img {
+
+	width: 385px;
+	height: 300px;
+	padding-bottom: 20px;
+	margin: -25px 20px 0;
+	float: right;
+}
+
+.container .artikelTerbaru .sugar h2 {
+
+	margin: 25px 5px 5px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.container .artikelTerbaru .sugar p {
+
+	margin: 0 10px;
+	text-align: justify;
+}
+
+/* akhir class sugar */
+
+/* awal class pagenation */
+
+.container .artikelTerbaru .pagenation li {
+
+	margin: 8px;
+	list-style: none;
+	font-size: 14pt;
+	text-align: center;
+}
+
+.container .artikelTerbaru .pagenation li a {
+
+	color: white;
+}
+
+.container .artikelTerbaru .pagenation .kiri {
+
+	float: left;
+}
+
+.container .artikelTerbaru .pagenation .kanan {
+
+	float: right;
+}
+
+/* akhir class artikelTerbaru */
+
+/* awal class sosmed */
+
+.container .widget .sosmed {
+
+	margin: 10px 0 5px;
+	border-top: 5px solid white;
+}
+
+.container .widget .sosmed h3 {
+
+	color: black;
+	margin: 10px 0 0;
+	text-align: center;
+}
+
+.container .widget .sosmed img {
+
+	width: 30px;
+	height: 30px;
+	margin-left: 4px;
+	cursor: pointer;
+	position: relative;
+	top: 15px;
+}
+
+.container .widget .sosmed p {
+
+	font-family: roboto;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.container .widget .sosmed a {
+
+	text-decoration: none;
+	color: black;
+}
+
+.container .widget .sosmed a:hover {
+
+	text-decoration: underline;
+	color: blue;
+}
+
+/* akhir class sosmed */
+
+/* awal class footer */
+
+.footer {
+
+	width: 100%;
+	height: 30px;
+	margin-top: 5px;
+	background-color: #f90;
+	position: relative;
+}
+
+.footer p {
+
+	padding-top: 9px;
+	text-align: center;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 9pt;
+}
+
+.footer p a {
+
+	text-decoration: none;
+	color: black;
+}
+
+.footer p a:hover {
+
+	text-decoration: underline;
+	color: red;
+}
+
+/* akhir class footer */
+
+/* awal class DateALive */
+
+.container .DateALive {
+
+	width: 650px;
+	background-color: #a3a3a3;
+	float: right;
+	margin-left: 5px;
+}
+
+.container .DateALive .poster {
+
+	width: 480px;
+	margin: 30px 30px 20px;
+	position: relative;
+	left: 50px;
+	box-shadow: 7px 7px 6px 5px #333;
+}
+
+.container .DateALive h2 {
+
+	margin: 20px 5px 0;
+	text-align: justify;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.container .DateALive p {
+
+	margin: 5px 10px;
+	text-align: justify;
+}
+
+.container .DateALive .kurumi {
+
+	width: 200px;
+	height: 100px;
+	position: relative;
+	margin: 15px 0;
+	left: 220px;
+}
+
+/* akhir class DateALive */
+
+/* awal class sosmedFooter */
+
+.container .sosmedFooter {
+
+	margin: 10px;
+	text-align: center;
+}
+
+.container .sosmedFooter h3 {
+
+	color: black;
+	margin: 10px;
+}
+
+.container .sosmedFooter img {
+
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+/* akhir class sosmedFooter */
+
+.container .komentar {
+
+	margin: 5px;
+	border-top: 5px solid white;
+}
+
+.container .komentar img {
+
+	width: 80px;
+	height: 80px;
+	position: relative;
+	left: 80px;
+	margin-bottom: 10px;
+}
+
+.container .komentar input[type="email"] {
+
+	width: 97%;
+	height: 22px;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+.container .komentar textarea {
+
+	width: 97%;
+	height: 22px;
+	max-width: 97%;
+	max-height: 300px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.container .komentar input[type="submit"] {
+
+	width: 50%;
+	padding: 5px;
+	cursor: pointer;
+	border-radius: 3px;
+	margin: 10px 0 10px 150px;
+}
+
+.container .komentar h3 {
+
+	text-align: center;
+	margin: 10px 0;
+}
+
+/* awal class NGNLZero */
+
+.container .NGNLZero {
+
+	width: 650px;
+	background-color: #a3a3a3;
+	float: right;
+	margin-left: 5px;
+}
+
+.container .NGNLZero .poster2 {
+
+	width: 280px;
+	margin: 30px 30px 20px;
+	position: relative;
+	left: 150px;
+	box-shadow: 7px 7px 6px 5px #333;
+}
+
+.container .NGNLZero h2 {
+
+	margin: 20px 5px 0;
+	text-align: justify;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.container .NGNLZero p {
+
+	margin: 5px 10px;
+	text-align: justify;
+}
+
+.container .NGNLZero .shuvi {
+
+	width: 200px;
+	height: 100px;
+	position: relative;
+	margin: 15px 0;
+	left: 220px;
+}
+
+/* akhir class NGNLZero */
+
+/* awal class FGO6 */
+
+.container .FGO6 {
+
+	width: 650px;
+	background-color: #a3a3a3;
+	float: right;
+	margin-left: 5px;
+}
+
+.container .FGO6 .poster3 {
+
+	width: 450px;
+	margin: 30px 30px 20px;
+	position: relative;
+	left: 80px;
+	box-shadow: 7px 7px 6px 5px #333;
+}
+
+.container .FGO6 h2 {
+
+	margin: 20px 5px 0;
+	text-align: justify;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.container .FGO6 p {
+
+	margin: 5px 10px;
+	text-align: justify;
+}
+
+.container .FGO6 .Camelot {
+
+	width: 200px;
+	height: 100px;
+	position: relative;
+	margin: 15px 0;
+	left: 220px;
+}
+
+/* akhir class FGO6 */
+
+/* awal class FGO8 */
+
+.container .FGO8 {
+
+	width: 650px;
+	background-color: #a3a3a3;
+	float: right;
+	margin-left: 5px;
+}
+
+.container .FGO8 .poster4 {
+
+	width: 280px;
+	margin: 30px 30px 20px;
+	position: relative;
+	left: 150px;
+	box-shadow: 7px 7px 6px 5px #333;
+}
+
+.container .FGO8 h2 {
+
+	margin: 20px 5px 0;
+	text-align: justify;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.container .FGO8 p {
+
+	margin: 5px 10px;
+	text-align: justify;
+}
+
+.container .FGO8 .solomon {
+
+	width: 220px;
+	height: 120px;
+	position: relative;
+	margin: 15px 0;
+	left: 220px;
+}
+
+/* akhir class FGO8 */
+
+/* awal class covid19 */
+
+.container .covid19 {
+
+	width: 650px;
+	background-color: #a3a3a3;
+	float: right;
+	margin-left: 5px;
+}
+
+.container .covid19 .poster5 {
+
+	width: 450px;
+	margin: 30px 30px 20px;
+	position: relative;
+	left: 80px;
+	box-shadow: 7px 7px 6px 5px #333;
+}
+
+.container .covid19 h2 {
+
+	margin: 20px 5px 0;
+	text-align: justify;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.container .covid19 p {
+
+	margin: 5px 10px;
+	text-align: justify;
+}
+
+.container .covid19 .virus {
+
+	width: 220px;
+	height: 120px;
+	position: relative;
+	margin: 15px 0;
+	left: 220px;
+}
+
+/* akhir class covid19 */
+
+/* awal class nightmare */
+
+.container .nightmare {
+
+	width: 650px;
+	background-color: #a3a3a3;
+	float: right;
+	margin-left: 5px;
+}
+
+.container .nightmare .poster6 {
+
+	width: 450px;
+	margin: 30px 30px 20px;
+	position: relative;
+	left: 80px;
+	box-shadow: 7px 7px 6px 5px #333;
+}
+
+.container .nightmare h2 {
+
+	margin: 20px 5px 0;
+	text-align: center;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.container .nightmare p {
+
+	margin: 5px 10px;
+	text-align: justify;
+}
+
+.container .nightmare .nightmare2 {
+
+	width: 220px;
+	height: 120px;
+	position: relative;
+	margin: 15px 0;
+	left: 220px;
+}

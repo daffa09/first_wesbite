@@ -1,6 +1,6 @@
-# Fisrt Wesbite
+# First Wesbite
 
-This is my fisrt website, when i learn how to build website
+This is my first website, when i learn how to build website
 
 and this my message for you all especeially for my self :
 

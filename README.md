@@ -162,7 +162,7 @@ Building this first website taught me:
 
 This message is a reminder to myself and to everyone starting their web development journey. This first website may be simple, but it represents the first step in a continuous learning process. Every expert was once a beginner.
 
-##🔧 Future Improvements
+## 🔧 Future Improvements
 
 Things I would add if I were to rebuild this now:
 - Modern CSS frameworks (Tailwind, Bootstrap)

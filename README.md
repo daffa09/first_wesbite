@@ -2,10 +2,12 @@
 <!-- slug: first-website -->
 <!-- title: First Website -->
 <!-- description: My first website project while learning web development fundamentals -->
-<!-- image: https://github.com/user-attachments/assets/placeholder-first-website -->
+<!-- image: https://github.com/user-attachments/assets/fc89b0c1-e188-4b7c-96c4-f2591e83eb11 -->
 <!-- tags: html, css, javascript, portfolio, beginner -->
 
 # My First Website
+
+<img width="1901" height="908" alt="image" src="https://github.com/user-attachments/assets/fc89b0c1-e188-4b7c-96c4-f2591e83eb11" />
 
 A personal milestone project - my very first website created while learning the fundamentals of web development. This project represents the beginning of my journey into web development, built with pure HTML, CSS, and JavaScript.
 
